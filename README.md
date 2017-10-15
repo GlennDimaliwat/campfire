@@ -35,15 +35,19 @@ rails g channel room speak
 
 8. Modified `room.coffee`
 
-9. Added items in `issues encountered`  (**[see below](#Issues)**)
+9. Created `messages\_message.html.erb` partial
 
-10. `bundle install` and restart server
+10. Modified `rooms\show.html.erb`
 
-11. Created a job MessageBroadcast
+11. Added items in `issues encountered`  (**[see below](#Issues)**)
+
+12. `bundle install` and restart server
+
+13. Created a job MessageBroadcast
 ```
 rails g job MessageBroadcast
 ```
-12. Modified `message_broadcast_job.rb`
+14. Modified `message_broadcast_job.rb`
 
 
 ## Models
